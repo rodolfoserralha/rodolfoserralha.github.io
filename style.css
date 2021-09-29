@@ -1,38 +1,162 @@
-body {
-    padding: 2%;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
 }
 
-
-h1 {
-    font-size: 20px;
-    font-family: Verdana;
-    text-align: center;
+header {
+  background-color: rgb(238, 238, 238);
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-div {
-    border: 2px solid green;
+#menu {
+  display: flex;
+  margin-right: 20px;
 }
 
-.descricao {
-    position: absolute;
-    top: 50%;
-    right: 17%;
+#turma-bairro {
+  margin-left: 20px;
 }
 
-
-
-#minha-foto {
-    float: left;
-    height: 410px;
-    padding: 10px;
-    background-color: hotpink;
+#turma-bairro:hover {
+  color: cornflowerblue;
 }
 
-.image-container {
-    height: 430px;
-    position: relative;
+header #menu p {
+  padding: 10px;
 }
 
-ul li:nth-child(odd){
-    background-color: indianred;
+header #menu p:hover {
+  color: cornflowerblue;
+}
+
+#img-turma {
+  /* border: 10px solid rgb(238, 238, 238); */
+  /* display: flex; */
+  position: relative;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+#img-turma:hover, #cairo:hover, #matheus:hover, #rully:hover, #thiago:hover,
+#igor:hover, #rodolfo:hover {
+  opacity: 0.5;
+}
+
+#friends {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+#h1 {
+  text-shadow: 0 0 6px rgb(0, 0, 0);
+  text-align: center;
+  position: absolute;
+  font-size: 50px;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#about {
+  text-align: center;
+  margin: 20px;
+}
+
+#about p {
+  margin-top: 15px;
+}
+
+#photos {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly
+}
+
+#cairo, #matheus, #rully, #thiago, #igor, #rodolfo {
+  /* border: 1rem solid; */
+  width: 260px;
+  height: 260px;
+  margin: 5px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  object-fit: cover;
+}
+
+.about-people {
+  margin-top: 0px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 350px;
+}
+
+.about-background {
+  background-color: white;
+}
+
+.meliante {
+
+  height: 1950px;
+}
+
+#cairo1, #matheus1, #igor1, #rodolfo1, #rully1, #thiago1 {
+  border-radius: 50%;
+  border: 4px solid rgb(255, 255, 255);
+  margin: 10px 30px;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.paragrafo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragrafo p {
+  width: 60%;
+  text-align: center;
+  line-height: 150%;
+}
+
+#formulario {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+}
+
+h4 {
+  padding-bottom: 10px;
+  margin-top: 25px;
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  margin-top: 20px;
+}
+
+#btn {
+  width: 100px;
+  margin-top: 15px;
 }
