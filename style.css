@@ -23,7 +23,7 @@ body header #img-header {
   width: 40px;
   border-radius: 50%;
   border: 2.5px solid black;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-right: 5px;
 }
 
@@ -75,16 +75,7 @@ body #rodolfo {
 body section #text-img {
   align-self: flex-end;
   margin-bottom: 40px;
-  margin-left: 20px;
-;
-}
-
-#div-img {
-  background-color: brown;
-  width: 100%;
-  /* height: ; */
-  margin-top: -40%;
-  margin-left: 50%;
+  margin-left: 40px;
 }
 
 #img-background {
@@ -94,7 +85,7 @@ body section #text-img {
   /* margin-left: 50%;
   margin-top: -50%; */
   /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  /* filter: grayscale(100%); */ */
+  /* filter: grayscale(100%); */
 }
 
 body section #name {
@@ -156,7 +147,7 @@ body section #story #projects {
   /* filter: grayscale(100%); */
   box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75); */
+  -moz-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
   /* border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px; */
