@@ -217,9 +217,13 @@ body footer #rights {
 
 @media (max-width: 640px) 
 {
+    #rodolfo {
+      margin-top: -50px;
+    }
+
     #img-background
     {
-        display: none;
+      display: none;
     }
 
     body header #left 
@@ -246,6 +250,16 @@ body footer #rights {
     #container-imgs {
       align-items: center;
       justify-content: center;
+    }
+
+    .portfolio-imgs {
+      width: 90%;
+    }
+
+    #investment {
+      background-size: cover;
+      height: 150px;
+      width: 300px;
     }
 
     body #rodolfo
