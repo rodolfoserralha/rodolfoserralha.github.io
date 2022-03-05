@@ -133,7 +133,8 @@ body section #story #projects {
 #container-imgs {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .portfolio-imgs {
@@ -144,13 +145,33 @@ body section #story #projects {
   -moz-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
 }
 
-#recipe-img {
-  text-align: center;
+#investment {
+  background-image: url("src/investiment-calculator.png");
+  background-size: cover;
+  box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+  margin: 30px;
+  height: 316px;
+  width: 610px;
+  -webkit-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
 }
 
-.portfolio-imgs:hover, .portfolio-imgs-phone:hover {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+#recipe-app {
+  background-image: url("src/recipe-app.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+  border: 1px solid rgb(238, 238, 238);
+  margin: 30px;
+  height: 316px;
+  width: 170px;
+  -webkit-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+}
+
+#a-link {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 body #story-telling {
