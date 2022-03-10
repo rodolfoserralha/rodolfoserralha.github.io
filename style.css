@@ -215,10 +215,28 @@ body footer #rights {
   margin-top: 30px;
 }
 
+#img-background-up {
+  display: none;
+}
+
 @media (max-width: 640px) 
 {
     #rodolfo {
       margin-top: -50px;
+    }
+
+    #img-background-up {
+      align-self: center;
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 60%;
+    }
+
+    #rodolfo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     #img-background
@@ -228,13 +246,21 @@ body footer #rights {
 
     body header #left 
     {
-      width: 100%;
       justify-content: space-around;
+      width: 100%;
     }
 
     p, h1 
     {
       text-align: center;
+    }
+
+    #story {
+      margin-top: 100px;
+    }
+    
+    #projects {
+      font-size: 1.2rem;
     }
     
     body section #story #a-link 
