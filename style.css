@@ -221,10 +221,6 @@ body footer #rights {
 
 @media (max-width: 560px) 
 {
-    #rodolfo {
-      margin-top: -50px;
-    }
-
     #img-background-up {
       align-self: center;
       display: block;
@@ -232,6 +228,10 @@ body footer #rights {
       margin-left: 45px;
       margin-top: 50px;
       width: 60%;
+    }
+
+    #project-h1 {
+      margin-top: 40px;
     }
 
     #rodolfo {
