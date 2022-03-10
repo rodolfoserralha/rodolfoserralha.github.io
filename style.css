@@ -219,6 +219,18 @@ body footer #rights {
   display: none;
 }
 
+#icon-container {
+  display: none;
+  justify-content: space-around;
+  margin: 40px;
+  width: 100%;
+}
+
+.icons {
+  display: hidden;
+  width: 80px;
+}
+
 @media (max-width: 560px) 
 {
     #img-background-up {
@@ -302,6 +314,9 @@ body footer #rights {
       display: none;
     }
 
+    #icon-container {
+      display: flex;
+    }
     footer #contact
     {
       display: flex;
