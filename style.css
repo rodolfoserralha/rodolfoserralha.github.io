@@ -228,8 +228,9 @@ body footer #rights {
     #img-background-up {
       align-self: center;
       display: block;
-      margin-top: 50px;
       margin-bottom: 50px;
+      margin-left: 50px;
+      margin-top: 50px;
       width: 60%;
     }
 
