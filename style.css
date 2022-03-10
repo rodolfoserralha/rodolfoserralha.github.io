@@ -219,7 +219,7 @@ body footer #rights {
   display: none;
 }
 
-@media (max-width: 640px) 
+@media (max-width: 560px) 
 {
     #rodolfo {
       margin-top: -50px;
@@ -262,7 +262,7 @@ body footer #rights {
     #projects {
       font-size: 1.2rem;
     }
-    
+
     body section #story #a-link 
     {
       margin-top: 10px;
