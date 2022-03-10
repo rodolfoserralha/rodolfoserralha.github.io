@@ -231,7 +231,7 @@ body footer #rights {
   width: 80px;
 }
 
-@media (max-width: 560px) 
+@media (max-width: 400px)
 {
     #img-background-up {
       align-self: center;
@@ -243,7 +243,7 @@ body footer #rights {
     }
 
     #project-h1 {
-      margin-top: 40px;
+      margin-top: 120px;
     }
 
     #rodolfo {
@@ -273,7 +273,7 @@ body footer #rights {
     }
     
     #projects {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     body section #story #a-link 
@@ -317,8 +317,8 @@ body footer #rights {
     #icon-container {
       display: flex;
     }
-    footer #contact
-    {
+
+    footer #contact {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -329,4 +329,216 @@ body footer #rights {
     footer #email {
       margin-top: 5px;
     }
+
+    #rights {
+      padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px) 
+{
+  #img-background-up {
+    align-self: center;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 60%;
+  }
+
+  #project-h1 {
+    margin-top: 50px;
+  }
+
+  #rodolfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #img-background
+  {
+    display: none;
+  }
+
+  body header #left 
+  {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  p, h1 
+  {
+    text-align: center;
+  }
+
+  #story {
+    margin-top: 100px;
+  }
+  
+  #projects {
+    font-size: 1.2rem;
+  }
+
+  body section #story #a-link 
+  {
+    margin-top: 10px;
+  }
+
+  #linkedin, #about 
+  {
+    display: none;
+  }
+
+  #container-imgs {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portfolio-imgs {
+    width: 90%;
+  }
+
+  #investment {
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+  }
+
+  body #rodolfo
+  {
+    width: 90%;
+  }
+
+  #rodolfo {
+    height: 30px;
+  }
+
+  #name {
+    display: none;
+  }
+
+  #icon-container {
+    display: flex;
+  }
+
+  footer #contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 90%;
+  }
+
+  footer #email {
+    margin-top: 5px;
+  }
+
+  #rights {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 680px) 
+{
+  #img-background-up {
+    align-self: center;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 60%;
+  }
+
+  #project-h1 {
+    margin-top: 90px;
+  }
+
+  #rodolfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #img-background
+  {
+    display: none;
+  }
+
+  body header #left 
+  {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  p, h1 
+  {
+    text-align: center;
+  }
+
+  #story {
+    margin-top: 100px;
+  }
+  
+  #projects {
+    font-size: 1.2rem;
+  }
+
+  body section #story #a-link 
+  {
+    margin-top: 10px;
+  }
+
+  #linkedin, #about 
+  {
+    display: none;
+  }
+
+  #container-imgs {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portfolio-imgs {
+    width: 90%;
+  }
+
+  #investment {
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+  }
+
+  body #rodolfo
+  {
+    width: 90%;
+  }
+
+  #rodolfo {
+    height: 30px;
+  }
+
+  #name {
+    display: none;
+  }
+
+  #icon-container {
+    display: flex;
+  }
+
+  footer #contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 90%;
+  }
+
+  footer #email {
+    margin-top: 5px;
+  }
+
+  #rights {
+    padding-bottom: 20px;
+  }
 }
